@@ -54,7 +54,6 @@ public class MainCircles extends JFrame {
         }
 
         backGround.setBackground();
-        backGround.setBackground();
     }
 
     private void render(GameCanvas canvas, Graphics g) {
