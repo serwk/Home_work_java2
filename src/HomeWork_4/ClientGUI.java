@@ -105,6 +105,8 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
     public void logAppened(){
         log.append(tfMessage.getText() + "\n");
         tfMessage.setText("");
+
+        // Task 2 writing to a file here
     }
     public class NumberKeyListener extends KeyAdapter {
 
